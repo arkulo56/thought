@@ -13,7 +13,7 @@
   </body>
 </html>
 </richcontent>
-<node CREATED="1417961977210" FOLDED="true" ID="ID_1823708949" MODIFIED="1417962189588" TEXT="&#x5206;&#x7c7b;">
+<node CREATED="1417961977210" ID="ID_1823708949" MODIFIED="1418182034711" TEXT="&#x5206;&#x7c7b;">
 <node CREATED="1417961985023" ID="ID_899241385" MODIFIED="1417962123788" TEXT="&#x901a;&#x7528;&#x540d;&#x8bcd;">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -56,7 +56,7 @@
 </node>
 <node CREATED="1417962013124" ID="ID_26768655" MODIFIED="1417962015176" TEXT="&#x6570;&#x8bcd;"/>
 </node>
-<node CREATED="1417962180733" ID="ID_1212191228" MODIFIED="1417962548582" TEXT="&#x540d;&#x8bcd;&#x590d;&#x6570;">
+<node CREATED="1417962180733" FOLDED="true" ID="ID_1212191228" MODIFIED="1418182060550" TEXT="&#x540d;&#x8bcd;&#x4f7f;&#x7528;&#x89c4;&#x5219;&#xff08;&#x590d;&#x6570;&#xff09;">
 <node CREATED="1417962556030" ID="ID_337320898" MODIFIED="1417962642201" TEXT="&#x52a0;s">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -184,6 +184,292 @@
     <p>
       boy-friend&#160;&#160;--&gt;&#160;&#160;boy-friends
     </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1418182062029" ID="ID_1300158039" MODIFIED="1418182072831" TEXT="&#x51a0;&#x8bcd;&#x7684;&#x4f7f;&#x7528;&#x89c4;&#x5219;">
+<node CREATED="1418182093482" ID="ID_844174674" MODIFIED="1418182097433" TEXT="a &#x8fd9;&#x4e2a;&#x4e0d;&#x5fc5;&#x8bf4;&#x4e86;"/>
+<node CREATED="1418182098030" ID="ID_544855324" MODIFIED="1418182148113" TEXT="an &#x7528;&#x5728;&#x5143;&#x97f3;&#x5b57;&#x6bcd;&#x524d;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20063;&#23601;&#26159;&#21333;&#35789;&#39318;&#23383;&#27597;&#21457;&#38899;&#21644;a&#30456;&#21516;&#65292;&#25152;&#20197;&#25913;&#25104;an
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1418182169188" ID="ID_700383199" MODIFIED="1418182205172" TEXT="the &#x201c;&#x8fd9;&#x4e2a;&#x201d; &#x201c;&#x6b64;&#x201d;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21477;&#23376;&#20013;&#31532;&#19968;&#27425;&#20986;&#29616;&#21517;&#35789;&#29992;a&#65295;an&#65292;&#20877;&#27425;&#20986;&#29616;&#30340;&#26102;&#20505;&#65292;&#23601;&#29992;the
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1418182215669" ID="ID_1495444096" MODIFIED="1418182219059" TEXT="&#x4ee3;&#x8bcd;&#x7684;&#x4f7f;&#x7528;&#x89c4;&#x5219;">
+<node CREATED="1418182260120" ID="ID_639140276" MODIFIED="1418183131062" TEXT="&#x4ee3;&#x8bcd;&#x4e3b;&#x8981;&#x662f;&#x6240;&#x6709;&#x683c;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <table border="0" style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 0; border-bottom-width: 0; border-top-width: 0; width: 80%; border-right-width: 0">
+      <tr>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            &#20027;&#26684;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            &#23486;&#26684;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            &#25152;&#26377;&#26684;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            &#21453;&#36523;&#26684;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            &#29289;&#20027;&#26684;
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            i&#25105;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            me&#25105;&#160;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            my&#25105;&#30340;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            myself&#25105;&#33258;&#24049;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            mine&#25105;&#30340;&#19996;&#35199;
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            you&#20320;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            you&#20320;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            your&#20320;&#30340;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            yourself&#20320;&#33258;&#24049;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            yours&#20320;&#30340;&#19996;&#35199;
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            he&#20182;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            him&#20182;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            his&#20182;&#30340;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            himself&#20182;&#33258;&#24049;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            his&#20182;&#30340;&#19996;&#35199;
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            she&#22905;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            her&#22905;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            her&#22905;&#30340;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            herself&#22905;&#33258;&#24049;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            hers&#22905;&#30340;&#19996;&#35199;
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            it&#23427;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            it&#23427;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            its&#23427;&#30340;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            itself&#23427;&#33258;&#24049;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            its&#23427;&#30340;&#19996;&#35199;
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            we&#25105;&#20204;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            us&#25105;&#20204;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            our&#25105;&#20204;&#30340;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            ourselves&#25105;&#20204;&#33258;&#24049;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            ours&#25105;&#20204;&#30340;
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            you&#20320;&#20204;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            you&#20320;&#20204;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            your&#20320;&#20204;&#30340;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            youselves&#20320;&#20204;&#33258;&#24049;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            yours&#20320;&#20204;&#30340;&#19996;&#35199;
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            they&#20182;&#20204;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            them&#20182;&#20204;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            their&#20182;&#20204;&#30340;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            themselves&#20182;&#20204;&#33258;&#24049;
+          </p>
+        </td>
+        <td style="border-top-style: solid; border-bottom-style: solid; border-right-style: solid; border-left-style: solid; border-left-width: 1; border-bottom-width: 1; border-top-width: 1; width: 20%; border-right-width: 1" valign="top">
+          <p style="margin-right: 1; margin-top: 1; margin-bottom: 1; margin-left: 1">
+            theirs&#20182;&#20204;&#30340;&#19996;&#35199;
+          </p>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>
 </richcontent>
