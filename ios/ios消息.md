@@ -57,4 +57,10 @@
 4. 把device token发送给provider     
 5. 为了防止device token发生变化，在app执行过程中，应该在需要的时候就去获取device token然后发送给provider
 
-###处理notification
+###处理notification(handling local and remote notification)
+
+1. 正常情况下，app不在前台运行，那系统将会直接按照types执行通知提示（alert，icon number，sound） 
+2. 轻拍自定义按钮，可以通过application:handleActionWithIdentifier:forRemoteNotification:completionHandler:or application:handleActionWithIdentifier:forLocalNotification:completionHandler:来获得按钮的identifier，以便区别用户点了哪个按钮，同时也能区别时远程通知还是本地通知
+3. 如果用户轻拍默认按钮，系统会启动app，并执行application:didFinishLaunchingWithOptions（如果是远程通知，同时会调用application:didReceiveRemoteNotification:fetchCompletionHandler）
+4. 特殊情况下，app在前台运行，系统会调用application:didReceiveLocalNotification: or application:didReceiveRemoteNotification:fetchCompletionHandler:来获取数据。
+
