@@ -29,3 +29,32 @@
 	4）ssl证书是app的唯一标示，操作系统可以判断apns发送的信息该传给哪个app     
 	5）payload就是notification数据的格式（载体），最多不能超过256个字节     
 	6）自己开发需要做的是两部分：`客户端获取deviceToken并传送给provider`和`provider发送push消息给apns`     
+	
+###register注册notification
+
+1. registerUserNotificationSettings用来注册notification，local和remote都是用这个函数注册
+2. 这个注册函数主要是针对display的形式：alert,badge icon image,sound
+3. registerForRemoteNotificationTypes在ios8以后废弃了
+
+
+###设定Scheduling一个local notification流程
+
+1. 注册notification的表现形式(registerUserNotificationSettings),如果是已经注册过的，可以通过 currentUserNotificationSettings查看原来注册的类型     
+2. 对 UILocalNotification进行初始化    
+3. 设定date（fireDate）和time（TimeZone）,使得系统能按时间发送通知，这里可以是一个特定的时间，也可以是一个循环（周，月）     
+4. alert，badge image，sound都是可以配置的，alertBody,alertAction, applicationIconBadgeNumber,UILocalNotificationDefaultSoundName等等    
+5. 可以在userInfo属性中添加一些额外的数据      
+6. ios8之后可以添加一些notification action（例如sound触发后会怎样）     
+7. 设定一个本地通知用scheduleLocalNotification，系统会使用UILocalNotification中设定的fireday定时提醒，当然你也可以立刻看到效果presentLocalNotificationNow       
+8. 设置cancelLocalNotification可以取消指定的notification，cancelAllLocalNotifications取消全部       
+
+
+###设定Scheduling一个remote notification的流程
+
+1. 使用 registerUserNotificationSettings注册notification types     
+2. 注册接受远程通知（apns发送）的函数：registerForRemoteNotifications      
+3. 注册成功（或失败）返回device token的接受函数，application:didRegisterForRemoteNotificationsWithDeviceToken是接受函数，ios如果失败了触发application:didFailToRegisterForRemoteNotificationsWithError:                 
+4. 把device token发送给provider     
+5. 为了防止device token发生变化，在app执行过程中，应该在需要的时候就去获取device token然后发送给provider
+
+###处理notification
