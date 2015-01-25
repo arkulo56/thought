@@ -1,3 +1,5 @@
+#ios消息推送笔记
+
 ##这些都是基本概念
 1. local notification和remote notification都是解决同一个问题
 2. 两者的来源不同
@@ -13,7 +15,7 @@
 	2）APNS为每个app提供一个发送失败的队列，发送方需要自己链接服务器去获取失败信息，避免重复发送   
 7. TLS是SSL的升级版，是公钥加密的一种传输方式，具体的请看[http://www.ruanyifeng.com/blog/2014/02/ssl_tls.html](http://www.ruanyifeng.com/blog/2014/02/ssl_tls.html)
 
-###深入学习
+####深入学习
 
 1. local notification和remote notification的本质区别    
 	1）本地消息的预设和发送都在同一台设备上     
@@ -37,7 +39,7 @@
 <img src="https://raw.githubusercontent.com/arkulo56/thought/master/ios/image/3.png" width="600" />
 	
 
-###上图已经很清晰，下面是部分细节
+####上图已经很清晰，下面是部分细节
 
 1. 注册notification的表现形式(registerUserNotificationSettings),如果是已经注册过的，可以通过 currentUserNotificationSettings查看原来注册的类型     
 2. 对 UILocalNotification进行初始化    
@@ -78,7 +80,7 @@
 
 ***
 
-###处理notification(其实就是看到消息后，点击一下，app的动作)
+####处理notification(其实就是看到消息后，点击一下，app的动作)
 
 1. 正常情况下，app不在前台运行，那系统将会直接按照types执行通知提示（alert，icon number，sound),如果不点击，到这就完了
 2. 如果用户点击了提示信息，app这时候没有在前台激活，系统会启动app，并执行
@@ -95,7 +97,7 @@
 		application:didReceiveRemoteNotification:fetchCompletionHandler:
 4. 特殊的情况，ios8开始支持用户添加一些action给消息，比如可以进行简单回复，yes or no按钮等等，这种情况下，如果用户进行了相应的操作，该如何处理，后面的内容会讲解
 
-###如何设定那些特殊的action
+####如何设定那些特殊的action
 1. 用UIMutableUserNotificationAction对象来初始化一个action（例如：acceptAction）
 2. acceptAction.identifier用来唯一的标示这个action
 3. acceptAction.title是按钮上显示的文字
@@ -124,7 +126,7 @@
 12. 原来远程通知payload最多时256字节，现在是2k了，比以扩大许多
 
 
-###回到上面曾提到的问题，用户点击了这些特殊的按钮（yes or no）
+####回到上面曾提到的问题，用户点击了这些特殊的按钮（yes or no）
 
 1. 先考虑app是否在前台被激活，前面已经讲过该调用那些函数
 2. 然后进行特殊的action处理
