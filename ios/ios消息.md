@@ -95,7 +95,7 @@
 	或者 
 	
 		application:didReceiveRemoteNotification:fetchCompletionHandler:
-4. 特殊的情况，ios8开始支持用户添加一些action给消息，比如可以进行简单回复，yes or no按钮等等，这种情况下，如果用户进行了相应的操作，该如何处理，后面的内容会讲解
+4. 特殊的情况，ios8开始支持用户添加一些action给消息，比如可以进行简单回复，yes or no按钮等等，这种情况下，如果用户进行了相应的操作，该如何处理，后面的内容会讲解（如果不明白这个action是什么意思，可以看看这篇文章中的配图[http://my.oschina.net/u/1418722/blog/317422](http://my.oschina.net/u/1418722/blog/317422)）
 
 ####如何设定那些特殊的action
 1. 用UIMutableUserNotificationAction对象来初始化一个action（例如：acceptAction）
