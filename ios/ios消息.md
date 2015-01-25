@@ -141,3 +141,30 @@
 
  		completionHandler()
  		
+
+####最后一点内容
+
+1. sound可以选择系统自带的，也可以自定义。自定义sound不要超过30秒，否则系统会使用默认sound
+2. 把本地语言传给provider
+
+		NSString *preferredLang = [[NSLocale preferredLanguages] objectAtIndex:0];
+		const char *langStr = [preferredLang UTF8String];
+		[self sendProviderCurrentLanguage:langStr]; // custom method
+
+
+##远程通知需要开通服务
+
+####SSL证书
+1. 一个证书只能用于一个app（请google怎么获取证书，很多教程～）
+2. 证书开发接口：gateway.sandbox.push.apple.com，端口2195
+3. 证书的正式接口：gateway.push.apple.com，端口2195
+
+####notification接口格式
+
+<img src="https://raw.githubusercontent.com/arkulo56/thought/master/ios/image/4.png" width="600" />
+
+
+***
+
+
+<img src="https://raw.githubusercontent.com/arkulo56/thought/master/ios/image/5.png" width="600" />
