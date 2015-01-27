@@ -168,3 +168,9 @@
 
 
 <img src="https://raw.githubusercontent.com/arkulo56/thought/master/ios/image/5.png" width="600" />
+
+
+##遇到的一些问题
+
+1. pem证书是push证书导出的p12文件和push的key导出的p12文件合并之后的
+2. 
