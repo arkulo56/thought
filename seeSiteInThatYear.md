@@ -17,3 +17,4 @@
 14. Startup News[http://news.dbanotes.net/](http://news.dbanotes.net/)
 15. 码农周刊[http://weekly.manong.io/](http://weekly.manong.io/)
 16. 简书[http://www.jianshu.com/](http://www.jianshu.com/)
+17. 什么值得买[http://www.smzdm.com/](http://www.smzdm.com/)
