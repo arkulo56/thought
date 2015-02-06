@@ -20,3 +20,5 @@
 17. 什么值得买[http://www.smzdm.com/](http://www.smzdm.com/)
 18. segmentfault[http://segmentfault.com/](http://segmentfault.com/)
 19. 牛客网（题库）[http://www.nowcoder.com/](http://www.nowcoder.com/)
+20. python教程（廖雪峰）[http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000)
+21. 编程随想(翻墙)[http://program-think.blogspot.com/](http://program-think.blogspot.com/)
