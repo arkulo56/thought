@@ -49,4 +49,35 @@
 
 ***
 
-        
+####如何获取view的真实size
+
+`self.view.bounds`就可以获得实际尺寸，不过有个特殊情况，不能在viewDidLoad函数中使用哦
+
+
+***
+
+####获得AppDelegate.swift文件中的变量
+
+	var deleGate = UIApplication.sharedApplication().delegate as AppDelegate
+	
+这里的变量deleGate就是AppDelegate的实例化对象，直接通过它就可以访问其内部变量
+
+
+***
+
+####改变navigation和tabbar的背景颜色
+
+在AppDelegate.swift文件中设置：
+
+	//navigation颜色设置-----------------------------
+        UINavigationBar.appearance().barStyle = UIBarStyle.Black
+        UINavigationBar.appearance().barTintColor = UIColor(red: 0.0/255.0, green: 102.0/255.0, blue: 153.0/255.0, alpha: 1)
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        //tabbar颜色设置
+        UITabBar.appearance().barTintColor = UIColor(red: 0.0/255.0, green: 102.0/255.0, blue: 153.0/255.0, alpha: 1)
+        	UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName:UIColor.whiteColor()], forState: .Normal)
+        UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName:UIColor.whiteColor()], forState: .Selected)
+
+
+***
+
