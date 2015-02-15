@@ -81,3 +81,16 @@
 
 ***
 
+####CoreData中建立Entity一定要注意，表名第一个字母大写，要不会报错
+
+***
+
+####view绘制圆角
+
+	view1.layer.cornerRadius = 20
+    view1.layer.masksToBounds = 1
+    
+数值自己设置，就可以看到相应的圆角大小弧度效果
+
+***
+
