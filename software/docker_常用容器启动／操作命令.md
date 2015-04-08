@@ -1,6 +1,13 @@
 ## docker 常用容器启动／操作命令
 
+## 常规命令
+
+* 下载镜像: docker pull memcache
+* 查看已有镜像: docker images
+
 ## mysql
+
+https://registry.hub.docker.com/_/mysql/
 
 #### 启动容器
 
