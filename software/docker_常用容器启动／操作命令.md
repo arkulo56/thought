@@ -4,6 +4,9 @@
 
 * 下载镜像: docker pull memcache
 * 查看已有镜像: docker images
+* 查看所有的容器: docker ps
+* 创建镜像: docker build -t 镜像名字 目录
+* 查看当前boot2docker的ip地址：boot2docker ip
 
 ## mysql
 
