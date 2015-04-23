@@ -7,8 +7,9 @@
 * 查看所有的容器: docker ps
 * 创建镜像: docker build -t 镜像名字 目录
 * 查看当前boot2docker的ip地址：boot2docker ip
+* 进入一个容器的shell：docker exec -i -t 665b4a1e17b6 bash
 
-## mysql
+## mysql-------------------------------------------------------
 
 https://registry.hub.docker.com/_/mysql/
 
@@ -19,3 +20,8 @@ docker run --name mysqlTest -e MYSQL_ROOT_PASSWORD=123456 -d -p 3306:3306 mysql:
 #### 启动终端访问mysql容器
 
 docker run -it --link mysqlTest:mysql --rm mysql:5.5 sh -c 'exec mysql -h"$MYSQL_PORT_3306_TCP_ADDR" -P"$MYSQL_PORT_3306_TCP_PORT" -uroot -p"$MYSQL_ENV_MYSQL_ROOT_PASSWORD"'
+
+
+## php-------------------------------------------------------
+
+* 执行单独文件：docker run -it --rm --name myphpshell -v "$PWD":/usr/src/myapp -w /usr/src/myapp php:5.6-cli php object.php
