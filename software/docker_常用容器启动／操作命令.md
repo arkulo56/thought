@@ -8,7 +8,9 @@
 * 创建镜像: docker build -t 镜像名字 目录
 * 查看当前boot2docker的ip地址：boot2docker ip
 * 进入一个容器的shell：docker exec -i -t 665b4a1e17b6 bash
-* 更新一个容器: docker -m "描述" -a "作者" 665b4a1e17b6 arkulo/php-fpm:v1
+* 更新一个容器至镜像: docker -m "描述" -a "作者" 665b4a1e17b6 arkulo/php-fpm:v1
+* 打包镜像（传播）：docker save arkulo/nginx > /tmp/arkulonginx.tar
+* 导入镜像：docker load < /tmp/arkulonginx.tar
 
 
 ## 进入每个容器后需要统一安装的软件---------------------------------
