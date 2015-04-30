@@ -27,3 +27,4 @@
 24. 优才网[http://www.ucai.cn/index](http://www.ucai.cn/indexed)
 25. BookDna[http://www.bookdna.cn/](http://www.bookdna.cn/)
 26. Hacker News[https://news.ycombinator.com/](https://news.ycombinator.com/)
+27. nosqlfan[http://blog.nosqlfan.com/](http://blog.nosqlfan.com/)
