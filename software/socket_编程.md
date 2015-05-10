@@ -43,6 +43,10 @@
 
 ## TCP/IP三次握手和四次挥手
 
+
+![https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/socketStatusTransport.png](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/socketStatusTransport.png)
+
+
 **TCP的flags字段**
 
 * SYN 建立连接
@@ -53,7 +57,6 @@
 
 **socket状态**
 
-![https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/socketStatusTransport.png](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/socketStatusTransport.png)
 
 * **CLOSED**：表示初始状态
 * **LISTEN**：表示服务器端的某个socket处于监听状态，可以接受连接了
