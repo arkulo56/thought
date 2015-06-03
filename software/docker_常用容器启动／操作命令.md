@@ -22,6 +22,7 @@
 
 ## 用到的命令
 
+* boot2docker初始化，启动: boot2docker init / boot2docker start
 * 下载镜像: docker pull memcache
 * 查看已有镜像: docker images
 * 查看所有的容器: docker ps
