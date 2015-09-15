@@ -1,6 +1,7 @@
 ## 数据结构\_查找_B-tree
 
-> 本文来自
+> 本文来自:
+> https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/03.02.md
 
 
 ## B树
@@ -25,7 +26,7 @@
 
 磁盘是一个扁平的圆盘(与电唱机的唱片类似)。盘面上有许多称为磁道的圆圈，数据就记录在这些磁道上。磁盘可以是单片的，也可以是由若干盘片组成的盘组，每一盘片上有两个面。如下图11.3中所示的6片盘组为例，除去最顶端和最底端的外侧面不存储数据之外，一共有10个面可以用来保存信息。
 
-![](../images/7/1.jpg)
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/1.jpg)
 
 当磁盘驱动器执行读/写功能时。盘片装在一个主轴上，并绕主轴高速旋转，当磁道在读/写头(又叫磁头) 下通过时，就可以进行数据的读 / 写了。
 
@@ -67,7 +68,7 @@ B树与红黑树最大的不同在于，B树的结点可以有许多子女，从
 
 如下图所示，即是一棵B树，一棵关键字为英语中辅音字母的B树，现在要从树中查找字母R（包含n[x]个关键字的内结点x，x有n[x]+1个子女（也就是说，一个内结点x若含有n[x]个关键字，那么x将含有n[x]+1个子女）。所有的叶结点都处于相同的深度，带阴影的结点为查找字母R时要检查的结点）：
 
-![](../images/7/2.jpg)
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/2.jpg)
 
 **相信，从上图你能轻易的看到，一个内结点x若含有n[x]个关键字，那么x将含有n[x]+1个子女。如含有2个关键字D H的内结点有3个子女，而含有3个关键字Q T X的内结点有4个子女。**
 
@@ -90,9 +91,9 @@ B树中的每个结点根据实际情况可以包含大量的关键字信息和�
 
 B树的类型和节点定义如下图所示：
 
-![](../images/7/5.gif)  
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/5.gif)  
 
-![](../images/7/6.jpg)  
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/6.jpg)  
 
 ##### 3.3 文件查找的具体过程(涉及磁盘IO操作)
 
@@ -134,7 +135,7 @@ typedef struct {
 
 对于一棵含有N个关键字，m阶的B树来说（据B树的定义可知：m满足：ceil(m/2)<=**m**<=m，m阶即代表树中任一结点最多含有m个孩子，如5阶代表每个结点最多5个孩子，或俗称5叉树），且从1开始计数的话，其高度h为：
 
-![](../images/7/7.3.4.gif)
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/7.3.4.gif)
 
 这个B树的高度公式从侧面显示了B树的查找效率是相当高的。为什么呢？因为底数m/2可以取很大，如m可以达到几千，从而在关键字数一定的情况下，使得最终的h值尽量比较小，树的高度比较低。
 
@@ -150,7 +151,7 @@ typedef struct {
 
 下面咱们通过另外一个实例来对这棵B树的插入（insert）,删除（delete）基本操作进行详细的介绍。以一棵**5阶**（即树中任一结点至多含有4个关键字，5棵子树）B树实例进行讲解(如下图所示)：
 
-![](../images/7/11.jpg)
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/11.jpg)
 
 在上图所示的一棵5阶B树中，读者可以看到关键字数2-4个，内结点孩子数3-5个。**关键字数（2-4个）针对包括叶子结点在内的非根结点，孩子数（3-5个）则针对根结点和叶子结点之外的内结点。同时，根结点是必须至少有2个孩子的，不然就成直线型搜索树了。**且关键字为大写字母，顺序为字母升序。
 
@@ -164,7 +165,7 @@ typedef struct{
 } NodeType;
 ```
 
-![](../images/7/12.jpg)
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/12.jpg)
 
 ##### 4.1 插入（insert）操作
 
@@ -177,21 +178,21 @@ typedef struct{
 下面咱们通过一个实例来逐步讲解下。插入以下字符字母到一棵空的5阶B 树中：C N G A H E K Q M F W L T Z D P R X Y S，而且，因为是5阶B树，所以必有非根结点**关键字数**小了（小于2个）就合并，大了（超过4个）就分裂。
 
 1. 首先，结点空间足够，刚开始的4个字母可以直接到插入相同的结点中，如下图：  
-![](../images/7/14.jpg)
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/14.jpg)
 2. 插入H结点时，发现结点空间不够，所以将其分裂成2个结点，移动中间元素G上移到新的根结点中，且把A和C留在当前结点中，而H和N放置在新的右邻居结点中。如下图：  
-![](../images/7/15.jpg)
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/15.jpg)
 3. 当插入E,K,Q时，不需要任何分裂操作  
-![](../images/7/16.jpg)
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/16.jpg)
 4. 插入M需要一次分裂，注意到M恰好是中间关键字元素，所以M向上移到父节点中  
-![](../images/7/17.jpg)
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/17.jpg)
 5. 插入F,W,L,T不需要任何分裂操作  
-![](../images/7/18.jpg)
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/18.jpg)
 6. 插入Z时，最右的叶子结点空间满了，需要进行分裂操作，中间元素T上移到父节点中
-![](../images/7/19.jpg)
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/19.jpg)
 7. 插入D时，导致最左边的叶子结点被分裂，D恰好也是中间元素，上移到父节点中，然后字母P,R,X,Y直接陆续插入，不需要任何分裂操作  
-![](../images/7/20.jpg)
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/20.jpg)
 8. 最后，当插入S时，含有N,P,Q,R的结点需要分裂，把中间元素Q上移到父节点中，但是问题来了，因为Q上移导致父结点 “D G M T” 也满了，所以也要进行分裂，将父结点中的中间元素M上移到新形成的根结点中，从而致使树的高度增加一层。
-![](../images/7/21.jpg)
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/21.jpg)
 
 ##### 4.2、删除(delete)操作
 
@@ -207,36 +208,36 @@ typedef struct{
 
 下面咱们还是以上述插入操作构造的一棵5阶B树（**树中除根结点和叶子结点外的任意结点的孩子数m满足3<=m<=5，除根结点外的任意结点的关键字数n满足：2<=n<=4，所以关键字数小于2个就合并，超过4个就分裂**）为例，依次删除H,T,R,E。
 
-![](../images/7/22.jpg)
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/22.jpg)
 
 1. 首先删除元素H，当然首先查找H，H在一个叶子结点中，且该叶子结点元素数目3大于最小元素数目ceil(m/2)-1=2，则操作很简单，咱们只需要移动K至原来H的位置，移动L至K的位置（也就是结点中删除元素后面的元素向前移动）  
-![](../images/7/23.jpg)
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/23.jpg)
 2. 下一步，删除T,因为T没有在叶子结点中，而是在中间结点中找到，咱们发现他的继承者W(字母升序的下个元素)，将W上移到T的位置，然后将原包含W的孩子结点中的W进行删除，这里恰好删除W后，该孩子结点中元素个数大于2，无需进行合并操作。  
-![](../images/7/24.jpg)
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/24.jpg)
 3. 下一步删除R，R在叶子结点中,但是该结点中元素数目为2，删除导致只有1个元素，已经小于最小元素数目ceil(5/2)-1=2,而由前面我们已经知道：**如果其某个相邻兄弟结点中比较丰满（元素个数大于ceil(5/2)-1=2），则可以向父结点借一个元素，然后将最丰满的相邻兄弟结点中上移最后或最前一个元素到父节点中**（有没有看到红黑树中左旋操作的影子?）。
 故在这个实例中，由于右相邻兄弟结点“X Y Z”比较丰满，而删除元素R后，导致“S”结点稀缺
  - 所以原来的的“R S”结点先向父节点借一个元素W下移到该叶子结点中，代替原来S的位置，S前移；
  - 然后相邻右兄弟结点中的X上移到父结点中；
  - 最后相邻右兄弟结点中元素Y和Z前移。  
-![](../images/7/25.jpg)
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/25.jpg)
 4. 最后一步删除E， 删除后会导致很多问题，因为E所在的结点数目刚好达标，刚好满足最小元素个数（ceil(5/2)-1=2）,而相邻的兄弟结点也是同样的情况，删除一个元素都不能满足条件，所以需要**该节点与某相邻兄弟结点进行合并操作**；
  - 首先移动父结点中的元素（该元素在两个需要合并的两个结点元素之间）下移到其子结点中，
  - 然后将这两个结点进行合并成一个结点。所以在该实例中，咱们首先将父节点中的元素D下移到已经删除E而只有F的结点中，然后将含有D和F的结点和含有A,C的相邻兄弟结点进行合并成一个结点。  
-![](../images/7/26.jpg)
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/26.jpg)
 
 也许你认为这样删除操作已经结束了，其实不然，在看看上图，对于这种特殊情况，你立即会发现父节点只包含一个元素G，没达标（因为非根节点包括叶子结点的关键字数n必须满足于2=<n<=4，而此处的n=1），这是不能够接受的。如果这个问题结点的相邻兄弟比较丰满，则可以向父结点借一个元素。假设这时右兄弟结点（含有Q,X）有一个以上的元素（Q右边还有元素），然后咱们将M下移到元素很少的子结点中，将Q上移到M的位置，这时，Q的左子树将变成M的右子树，也就是含有N，P结点被依附在M的右指针上。
 
 所以在这个实例中，咱们没有办法去借一个元素，只能与兄弟结点进行合并成一个结点，而根结点中的唯一元素M下移到子结点，这样，树的高度减少一层。  
-![](../images/7/27.jpg)  
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/27.jpg)  
 
 为了进一步详细讨论删除的情况，**再举另外一个实例**：  
 这里是一棵不同的5序B树，那咱们试着删除C  
-![](../images/7/28.jpg)  
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/28.jpg)  
 于是将删除元素C的右子结点中的D元素上移到C的位置，但是出现上移元素后，只有一个元素的结点的情况。  
 又因为含有E的结点，其相邻兄弟结点才刚脱贫（最少元素个数为2），不可能向父节点借元素，所以只能进行合并操作，于是这里将含有A,B的左兄弟结点和含有E的结点进行合并成一个结点。   
-![](../images/7/29.jpg)  
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/29.jpg)  
 这样又出现只含有一个元素F结点的情况，这时，其相邻的兄弟结点是丰满的（元素个数为3>最小元素个数2），这样就可以想父结点借元素了，把父结点中的J下移到该结点中，相应的如果结点中J后有元素则前移，然后相邻兄弟结点中的第一个元素（或者最后一个元素）上移到父节点中，后面的元素（或者前面的元素）前移（或者后移）；注意含有K，L的结点以前依附在M的左边，现在变为依附在J的右边。这样每个结点都满足B树结构性质。  
-![](../images/7/30.jpg)  
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/30.jpg)  
 从以上操作可看出：除根结点之外的结点（包括叶子结点）的关键字的个数n满足：（ceil(m / 2)-1）<= n <= m-1，即2<=n<=4。这也佐证了咱们之前的观点。删除操作完。
 
 #### 5.B+-tree
@@ -249,7 +250,7 @@ typedef struct{
 2. 所有的叶子结点中包含了全部关键字的信息，及指向含有这些关键字记录的指针，且叶子结点本身依关键字的大小自小而大的顺序链接。 (而B 树的叶子节点并没有包括全部需要查找的信息)
 3. **所有的非终端结点可以看成是索引部分**，结点中仅含有其子树根结点中最大（或最小）关键字。 (而B 树的非终节点也包含需要查找的有效信息)
 
-![](../images/7/8.jpg)  
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/8.jpg)  
 
 a) 为什么说B+-tree比B 树更适合实际应用中操作系统的文件索引和数据库索引？ 
 
@@ -266,13 +267,13 @@ B+-tree的内部结点并没有指向关键字具体信息的指针。因此其�
 
 b)  B+-tree的应用: VSAM(虚拟存储存取法)文件(来源论文 *the ubiquitous Btree* 作者：D COMER - 1979 )
 
-![](../images/7/9.jpg)
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/9.jpg)
 
 #### 6.B\*-tree
 
 B\*-tree是B+-tree的变体，在B+树的基础上(所有的叶子结点中包含了全部关键字的信息，及指向含有这些关键字记录的指针)，B\*树中非根和非叶子结点再增加指向兄弟的指针；B\*树定义了非叶子结点关键字个数至少为(2/3)\*M，即块的最低使用率为2/3（代替B+树的1/2）。给出了一个简单实例，如下图所示：
 
-![](../images/7/10.jpg)
+![](https://raw.githubusercontent.com/arkulo56/thought/master/images/datastruct/b-tree/10.jpg)
 
 B+树的分裂：当一个结点满时，分配一个新的结点，并将原结点中1/2的数据复制到新结点，最后在父结点中增加新结点的指针；B+树的分裂只影响原结点和父结点，而不会影响兄弟结点，所以它不需要指向兄弟的指针。
 
