@@ -61,6 +61,53 @@ int btInsert(btNodeP *T,int key)
     }
 }
 
+int detailDelete(btNodeP *p)
+{
+    btNodeP q,s;
+    if((*p)->rnode==NULL)
+    {
+        q=*p;*p = (*p)->lnode;free(q);
+    }else if((*p)->lnode==NULL)
+    {
+        q=*p;*p = (*p)->rnode;free(q);
+    }else
+    {
+        q = *p;
+        s = (*p)->lnode;
+        while(s->rnode)
+        {
+           q=s; s = s->rnode;
+        }
+        (*p)->data = s->data;
+        if(q!=*p)
+        {
+            q->rnode = s->lnode;
+        }else
+        {
+            q->lnode = s->lnode;
+        }
+    }
+    return 1;
+}
+
+int btDelete(btNodeP *T,int key)
+{
+    if((*T)==NULL)
+    {
+        return 0;
+    }
+    if(key==(*T)->data)
+    {
+        return detailDelete(T);
+    }else if(key>(*T)->data)
+    {
+        return btDelete(&(*T)->rnode,key);
+    }else
+    {
+        return btDelete(&(*T)->lnode,key);
+    }
+}
+
 
 int main(int argc,char *argv[])
 {
@@ -78,5 +125,14 @@ int main(int argc,char *argv[])
             printf("key:%d add error\n",arr[i]);
         }
     }
+    int dKey = 2;
+    if(btDelete(&T,dKey))
+    {
+        printf("key:%d delete success\n",dKey);
+    }else
+    {
+        printf("key:%d delete error\n",dKey);
+    }
+
     return 0;
 }
