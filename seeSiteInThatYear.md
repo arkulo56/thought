@@ -28,3 +28,4 @@
 25. BookDna[http://www.bookdna.cn/](http://www.bookdna.cn/)
 26. Hacker News[https://news.ycombinator.com/](https://news.ycombinator.com/)
 27. nosqlfan[http://blog.nosqlfan.com/](http://blog.nosqlfan.com/)
+28. 何登成[http://hedengcheng.com/](http://hedengcheng.com/)
