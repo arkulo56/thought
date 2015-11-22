@@ -23,9 +23,12 @@
 ## 用到的命令
 
 * boot2docker初始化，启动: boot2docker init / boot2docker start
+* boot2docker ssh 进入boot2docker虚拟机
 * 下载镜像: docker pull memcache
 * 查看已有镜像: docker images
-* 查看所有的容器: docker ps
+* 查看所有的容器: docker ps(-a 查看所有容器包含没有启动的)
+* 启动原有的容器: docker start 容器名称
+* 启动一个新的容器: docker run --name 名称 -e 一些参数 -d -p 容器端口:虚拟机端口 新的容器名称
 * 创建镜像: docker build -t 镜像名字 目录
 * 查看当前boot2docker的ip地址：boot2docker ip （本文的IP是：192.168.59.103）
 * 进入一个容器的shell：docker exec -i -t 665b4a1e17b6 bash
