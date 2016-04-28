@@ -1,0 +1,17 @@
+{
+  "title": "9 - Team Collaboration",
+  "cells": [
+    {
+      "type": "text",
+      "data": "There are several ways to collaborate with your team using Quiver."
+    },
+    {
+      "type": "text",
+      "data": "<h3>Shared Notebooks</h3><div>A shared notebook is a Quiver notebook that is saved in Dropbox, iCloud Drive, Google Drive, or any other file-based cloud services. You can create a shared notebook from a local notebook, or from scratch. Another team member can then open the notebook on another computer and make edits. This is a great way to build a shared knowledge base for the whole team.</div><div><br></div><div>Multiple users can make changes to the same shared notebook at the same time, and changes to the notebook (adding and removing notes) will be synced. However, <u>Quiver does not resolve conflicts at the note level</u>.&nbsp;This means that if two users make changes to the same note at the same time, one of them will be notified that the note has been modified and needs to be reloaded.</div>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>Version Control</h3><div>If you use a version control system to manage your code and documentation, you might want to keep Quiver notes under version control as well. Since Quiver notes are just plain JSON files, you can commit them to a repository as regular text files.</div><div><br></div><div>You can put the entire library under version control, or just a few notebooks.&nbsp;<span style=\"line-height: 1.4;\">A side benefit is that you can use the version control system to automatically resolve merge conflicts if two users happen to edit the same note at the same time.</span></div>"
+    }
+  ]
+}

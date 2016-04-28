@@ -1,0 +1,17 @@
+{
+  "title": "8 - Cloud Syncing",
+  "cells": [
+    {
+      "type": "text",
+      "data": "Quiver lets you sync notes across multiple computers via Dropbox, iCloud Drive, Google Drive, or any other file-based cloud services."
+    },
+    {
+      "type": "text",
+      "data": "To set up cloud syncing, open the Sync tab in Preferences.<div><br></div><div><img src=\"quiver-image-url/0039E536-1343-4E82-908A-34B77B7ED2D9.png\"><br></div>"
+    },
+    {
+      "type": "text",
+      "data": "<div>Move your library to Dropbox or other cloud services, then open the same library on another computer. From here on, all your notes will be synced across all the devices.</div>"
+    }
+  ]
+}

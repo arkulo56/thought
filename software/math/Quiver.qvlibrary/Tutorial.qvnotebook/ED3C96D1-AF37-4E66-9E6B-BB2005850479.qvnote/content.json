@@ -1,0 +1,33 @@
+{
+  "title": "12 - Preferences",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div>In the General tab, you can change the default note order, default cell type, etc.<br></div><div><br></div><img src=\"quiver-image-url/C3FF7A1B-7664-445F-A72A-102882B5C453.png\"><br>"
+    },
+    {
+      "type": "text",
+      "data": "In the Themes tab, you can manage the app themes. Quiver comes with a few beautifully designed themes including a light theme and a dark theme, and you can easily import new themes or design your own.<div><img src=\"quiver-image-url/6E03AF8F-DE1E-4BE6-8B5E-730B4A1B72E2.png\"><br></div>"
+    },
+    {
+      "type": "text",
+      "data": "In the Cells tab, you can show/hide line numbers, enable code completion, change keybinding for code cells, create application-wide custom macros for LaTeX cells, etc.<div><img src=\"quiver-image-url/686554D4-4EAD-4AAA-9248-DA72C60CD808.png\"><br></div>"
+    },
+    {
+      "type": "text",
+      "data": "In the Styles tab, you can set custom styles for the editor, preview, presentation, exported HTML or PDF and print. All standard CSS rules are supported, such as font size, text color, background color, etc.<div><div><div></div><div><img src=\"quiver-image-url/1A766DDD-68AE-4AC3-BC2D-2CE310B2A8F5.png\"><br></div></div></div>"
+    },
+    {
+      "type": "text",
+      "data": "In the Shortcuts tab, you can assign global keyboard shortcuts for a few actions: bring Quiver to front, create a note, and search notes.<div><img src=\"quiver-image-url/57BF000A-0766-4C48-B4DF-0AB962C0D8BA.png\"><br></div>"
+    },
+    {
+      "type": "text",
+      "data": "The Sync and Backup tabs are already covered in previous notes."
+    },
+    {
+      "type": "text",
+      "data": "In the Advanced tab, you can export all your settings and CSS customizations into a single JSON file. This makes it easy to share your settings and customizations with others, or load the same settings on another computer.<div></div><div><img src=\"quiver-image-url/12EDC7A8-A468-49BD-A742-3856B829129B.png\"></div>"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "title": "函数的概念与性质",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## 第四讲\n\n### 一、函数的概念\n\n描述一个量依赖另一个量的变化"
+    },
+    {
+      "type": "markdown",
+      "data": "<img src=\"quiver-image-url/62F54716EFCD4010663F3E1782C978E0.jpg\" width=\"400\" />"
+    },
+    {
+      "type": "markdown",
+      "data": "> 注：这种变化可以是随机的，不一定非要等比例（等差）增长（递减）"
+    },
+    {
+      "type": "markdown",
+      "data": "### 1、函数相等\n\n函数法则相等，定义域相等，就是相同的函数\n\n### 2、自定义域\n"
+    },
+    {
+      "type": "markdown",
+      "data": "<img src=\"quiver-image-url/06D0FC3EE017560EA5EF804A24C46C08.jpg\" width=\"400\" />"
+    },
+    {
+      "type": "markdown",
+      "data": "### 3、一些函数的例子"
+    },
+    {
+      "type": "markdown",
+      "data": "<img src=\"quiver-image-url/AFCC1EC15E7A36D5F146EC1DB11CBC39.jpg\" width=\"400\" />\n\n<img src=\"quiver-image-url/08F0AC9B7E2BAECD1E383DF98C0FAE81.jpg\" width=\"400\" />"
+    },
+    {
+      "type": "markdown",
+      "data": "> 这几个函数都是常用的特殊函数，在今后的学习中会经常遇到，请仔细思考他们的特点！"
+    },
+    {
+      "type": "markdown",
+      "data": "> 通常我们想像：一个函数就是一条曲线！！这不是一定的！"
+    },
+    {
+      "type": "markdown",
+      "data": "<img src=\"quiver-image-url/647F0E1C18038A64A112B40677AC0A7C.jpg\" width=\"400\" />"
+    },
+    {
+      "type": "markdown",
+      "data": "狄利克雷是发明函数的人，用他名字命名的这个函数就不是曲线"
+    },
+    {
+      "type": "markdown",
+      "data": "<img src=\"quiver-image-url/C0792B45C759D2A9D593FE7C0A6CD057.jpg\" width=\"200\" />"
+    },
+    {
+      "type": "markdown",
+      "data": "### 4、函数的运算\n\n#### 4.1、函数的四则运算\n\n1. 其实就是给函数的函数值做四则运算\n2. 定义域就是各个函数定义域的交集\n\n#### 4.2、函数的复合运算"
+    },
+    {
+      "type": "markdown",
+      "data": "<img src=\"quiver-image-url/5457878EA672B2BCC27743F8AEB9F159.jpg\" width=\"400\" />"
+    },
+    {
+      "type": "markdown",
+      "data": "#### 4.3、函数的反函数(逆函数)"
+    },
+    {
+      "type": "markdown",
+      "data": "<img src=\"quiver-image-url/EC29E679DA20DFB00E4ECB1F83F91D30.jpg\" width=\"400\" />"
+    },
+    {
+      "type": "markdown",
+      "data": "> 以上是对函数的几种运算 （四则运算、符合运算及逆运算），其实后面学习的导数和积分也是对函数的两种运算\n\n### 5、函数的有界性"
+    },
+    {
+      "type": "markdown",
+      "data": "<img src=\"quiver-image-url/C0C3C192E25A2FD46716DF50492F0DBE.jpg\" width=\"400\" />"
+    },
+    {
+      "type": "markdown",
+      "data": "### 6、函数的单调性\n\n<img src=\"quiver-image-url/3CCD6D4291C756AABACB61FBE77CCF8D.jpg\" width=\"400\" />\n\n> 对于一个严格递增的函数，作为映射，他一定是双射。而双射一定是存在反函数的，且其反函数也是递增的（递减性质相同）"
+    },
+    {
+      "type": "markdown",
+      "data": "### 7、函数的奇偶性\n\n定义域是基于原点对程的：\n\n偶函数：f(-x) = f(x)   \n奇函数：f(-x) = -f(x)\n\n一些性质：\n\n1. 奇函数的代数和为奇函数\n2. 偶函数与奇函数的乘积一定是奇函数\n\n---\n"
+    },
+    {
+      "type": "markdown",
+      "data": "### 8、函数周期\n\n在实数范围内，有：\n\nf(x+T) = f(x)\n\n则称函数f(x)是以T为周期的周期函数\n\n如果存在一个最小的正数T，则可以称其为最小正周期\n\n\n> 是不是每一个周期函数都存在最小正周期？狄利克雷函数是偶函数，但是他的单位周期是不确定的！\n\n---\n\n"
+    }
+  ]
+}

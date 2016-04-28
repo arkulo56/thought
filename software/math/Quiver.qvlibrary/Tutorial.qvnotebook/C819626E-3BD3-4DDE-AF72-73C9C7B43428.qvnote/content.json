@@ -1,0 +1,17 @@
+{
+  "title": "7 - Tagging",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div>Quiver lets you assign tags to a note. This is another way to organize your notes.</div><div><br></div><div><img src=\"quiver-image-url/E3596D74-4437-499C-AF47-C56C409D0251.png\"><br></div>"
+    },
+    {
+      "type": "text",
+      "data": "You can browse notes in the Tags view.<div><br><div><img src=\"quiver-image-url/57BEDE28-70F2-4C67-9C13-621DF806AFD0.png\"><br></div></div>"
+    },
+    {
+      "type": "text",
+      "data": "<div>If you select multiple notes from the note list, you can add or remove tags to all the selected notes at once.</div><div><br></div><div><img src=\"quiver-image-url/E67B67BA-9D36-432F-818D-8838559CDFC0.png\"><br></div>"
+    }
+  ]
+}

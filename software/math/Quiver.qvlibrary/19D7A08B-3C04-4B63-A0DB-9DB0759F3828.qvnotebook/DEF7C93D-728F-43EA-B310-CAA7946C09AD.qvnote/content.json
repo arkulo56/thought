@@ -1,0 +1,73 @@
+{
+  "title": "初等函数",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## 一、幂函数\n\n`a是大于0的`"
+    },
+    {
+      "type": "markdown",
+      "data": "<img src=\"quiver-image-url/0CC1C53A630249C61B68966FC4B5CC8F.jpg\" width=\"400\" />"
+    },
+    {
+      "type": "markdown",
+      "data": "x^2是一个偶函数，其反函数就是自身，我们可以看看它与正负根号下x的关系，它们是根据分段的自定义域来求反函数的！以y=x对称。"
+    },
+    {
+      "type": "markdown",
+      "data": "<img src=\"quiver-image-url/E891DAEECA5652B41C99AC5831B6253F.jpg\" width=\"400\" />"
+    },
+    {
+      "type": "markdown",
+      "data": "> 偶函数和反函数都有什么用？自己想想！"
+    },
+    {
+      "type": "markdown",
+      "data": "下面这个是一个特殊的函数，也就是y=x^-1 和y=^(-2)这两个特殊幂函数，也叫双曲函数"
+    },
+    {
+      "type": "markdown",
+      "data": "<img src=\"quiver-image-url/7628C09F91CAF40F8A24FB854975ED13.jpg\" width=\"400\" />"
+    },
+    {
+      "type": "markdown",
+      "data": "---\n## 二、指数函数\n\n`底数a>0,a!=1`\n\n> e到底是什么？"
+    },
+    {
+      "type": "markdown",
+      "data": "<img src=\"quiver-image-url/1312B9CAC152B675C87C736F26CE210C.jpg\" width=\"600\" />"
+    },
+    {
+      "type": "markdown",
+      "data": "接下来看看指数函数的图形，分别展示了底数a大于和小于0的情况"
+    },
+    {
+      "type": "markdown",
+      "data": "<img src=\"quiver-image-url/AF41B63C8F7C9B5D85787E95FDEB9DBC.jpg\" width=\"400\" />"
+    },
+    {
+      "type": "text",
+      "data": "<hr>"
+    },
+    {
+      "type": "markdown",
+      "data": "## 三、对数函数\n\n`a>0,a!=1`\n\n对数函数的定义是依靠指数函数的，通俗的讲就是：\n\na^y = x  （求a需要经过y次指数增长，才能达到x的值)"
+    },
+    {
+      "type": "markdown",
+      "data": "<img src=\"quiver-image-url/4E8E83867CD2631018764D1D4B33FEDC.jpg\" width=\"400\" />"
+    },
+    {
+      "type": "markdown",
+      "data": "## 四、重要的对数和指数运算性质！！"
+    },
+    {
+      "type": "markdown",
+      "data": "<img src=\"quiver-image-url/28CD3299EA32B1A82ADA3C785A1665C9.jpg\" width=\"400\" />"
+    },
+    {
+      "type": "markdown",
+      "data": ""
+    }
+  ]
+}

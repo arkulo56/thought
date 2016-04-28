@@ -1,0 +1,10 @@
+{
+  "title": "demo",
+  "cells": [
+    {
+      "type": "diagram",
+      "diagramType": "sequence",
+      "data": "loop text\n\n    A->B: text\n    \nend"
+    }
+  ]
+}

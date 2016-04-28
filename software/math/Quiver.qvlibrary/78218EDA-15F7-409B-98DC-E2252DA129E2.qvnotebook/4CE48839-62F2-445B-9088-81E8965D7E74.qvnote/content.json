@@ -1,0 +1,21 @@
+{
+  "title": "开发中遇到的问题",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## 1.jps加载数据库驱动失败\n\n我在项目的build path中已经添加了mysql-jdbc的驱动，可是执行的时候还是失败，网上找到方法是：需要把驱动(.jar)包直接拷贝到tomcat的lib目录下，测试后就可以了！！"
+    },
+    {
+      "type": "markdown",
+      "data": "***"
+    },
+    {
+      "type": "markdown",
+      "data": "## 2.jsp使用java类，提示类不是一个类型\n在Java Resourse中写了自定义类，然后jsp调用的时候，提示类不是合适的类型！！后来发现输出端build/classes目录中没有生成的class，仔细查看，发现是project中的build automatically没有勾选！！！"
+    },
+    {
+      "type": "markdown",
+      "data": "***"
+    }
+  ]
+}

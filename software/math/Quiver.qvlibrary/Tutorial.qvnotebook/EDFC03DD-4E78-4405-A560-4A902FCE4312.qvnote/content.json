@@ -1,0 +1,25 @@
+{
+  "title": "3 - Cell Operations",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div>Cell operations in Quiver are very powerful, while intuitive to learn.</div><div><br></div><div>The most important one is to create a new cell, which you have already learned. Press “shift+return” (⇧⏎) to create a new cell just below the current cell. By default the new cell is created as a text cell, but you can easily convert it to other cell types if you like.</div><div></div>"
+    },
+    {
+      "type": "text",
+      "data": "There are several ways to convert one cell type to another. You can use the popup button in the toolbar, or keyboard shortcuts (⌥⌘1 to convert to a text cell, ⌥⌘2 to convert to a code cell, ⌥⌘3 to convert to a Markdown cell, ⌥⌘4 to convert to a LaTeX cell, ⌥⌘5 to convert to a diagram cell). You can find these options under the “Cell” menu."
+    },
+    {
+      "type": "text",
+      "data": "Another important cell operation is to merge two cells. Simply place the cursor at the beginning of the second cell, then press the “backspace” key. <u>Note that you can’t merge cells of different types.</u>"
+    },
+    {
+      "type": "text",
+      "data": "<div>Sometimes you might want to add a new cell at the current cursor position. You can use the \"New Cell At Cursor\" (⇧⌘I) menu item to do that.</div>"
+    },
+    {
+      "type": "text",
+      "data": "<div>You can also cut, copy or paste a cell, split a cell, move a cell up or down. All these cell operations and their corresponding keyboard shortcuts can be found under the “Cell” menu.</div>"
+    }
+  ]
+}

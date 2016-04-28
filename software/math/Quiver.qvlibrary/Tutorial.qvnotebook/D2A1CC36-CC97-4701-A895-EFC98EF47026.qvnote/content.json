@@ -1,0 +1,25 @@
+{
+  "title": "1 - Getting Started",
+  "cells": [
+    {
+      "type": "text",
+      "data": "Welcome to Quiver! This tutorial will help you get started."
+    },
+    {
+      "type": "text",
+      "data": "<div>Quiver is a notebook built for programmers. It lets you easily mix text, code, Markdown and LaTeX within one note, edit code with an awesome code editor, live preview Markdown and LaTeX, and find any note instantly via the full-text search.</div>"
+    },
+    {
+      "type": "text",
+      "data": "If you want to start using Quiver right away, just remember one thing:<div><br></div><div><i>A note in Quiver is comprised of cells.</i></div><div><br></div><div>Cells are snippets of text, code, Markdown or LaTeX that you can freely mix. You can even set different languages for different code cells inside the same note.</div>"
+    },
+    {
+      "type": "text",
+      "data": "<div><span style=\"line-height: 1.4;\">Click inside a new note and start typing. Press “shift+return” (⇧⏎) to create a new cell and use “backspace” to merge cells. That’s all you need to know to start using Quiver.&nbsp;</span></div>"
+    },
+    {
+      "type": "text",
+      "data": "<div><span style=\"line-height: 1.4;\">But if you want to learn more, keep reading.</span><br><span style=\"line-height: 1.4;\"></span></div>"
+    }
+  ]
+}

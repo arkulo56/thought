@@ -1,0 +1,17 @@
+{
+  "title": "5 - Preview and Presentation",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<h3>Live Preview</h3>Quiver supports live preview of Markdown and LaTeX cells. You can switch to Side-by-Side Preview (⌘6) to see the editor and preview side-by-side.<div><br></div><div>You can also double click on a note in the note list to open it in a new window, then switch to Side-by-Side Preview. You will see something like this:</div><div><br></div><div><img src=\"quiver-image-url/AEAA2B10-5292-4524-9043-6E0DD1A69A8E.png\"><br></div><br><div>When you make changes in the editor, the preview is updated as you type.<br></div><div><br></div><div>By default, scrolling is synchronized between the editor and preview. But you can turn this feature off in the View Menu &gt; Note View &gt; Scroll Sync.</div>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>Presentation Mode</h3><div>Quiver also comes with a full-screen presentation mode. You can choose “Start Presentation” (⌃⌥⌘P) from the “Note” menu or click the presentation button at the bottom right corner of the note.</div><div><br></div><div>The presentation mode is great for classroom use, team meetings, presentations, or simply reviewing notes on your own.<br></div><div><br></div><div><img src=\"quiver-image-url/AD9CEC60-4B82-4488-A916-F12EFCB6C0D2.png\"><br></div><div></div>"
+    },
+    {
+      "type": "text",
+      "data": "In the presentation mode, you can use the left/right arrow keys to move to the previous/next note in the list."
+    }
+  ]
+}

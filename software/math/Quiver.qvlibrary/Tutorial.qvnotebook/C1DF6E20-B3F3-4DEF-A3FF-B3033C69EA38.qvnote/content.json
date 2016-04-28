@@ -1,0 +1,21 @@
+{
+  "title": "11 - Import & Export",
+  "cells": [
+    {
+      "type": "text",
+      "data": "Quiver doesn’t lock you in.<div></div>"
+    },
+    {
+      "type": "text",
+      "data": "Quiver saves notebooks and notes in simple JSON formats, which are well-documented here: <a href=\"https://github.com/HappenApps/Quiver/wiki/Quiver-Data-Format\">https://github.com/HappenApps/Quiver/wiki/Quiver-Data-Format</a>.<div><br></div><div>So you can take your notes anywhere with you, and it’s easy to integrate Quiver notes with other tools you use.</div>"
+    },
+    {
+      "type": "text",
+      "data": "Quiver has built-in exporters for HTML, Markdown and PDF. You can export a Quiver notebook as linked HTML pages for easy navigation.<div><br></div><div>Exporting a Quiver note to Markdown creates a single Markdown document by concatenating Markdown cells and converting code cells to fenced code blocks. This makes it easy to upload the note to GitHub or other Markdown-friendly platforms.</div>"
+    },
+    {
+      "type": "text",
+      "data": "<div>If you have special needs for importers and exporters, it’s easy to write custom scripts that convert Quiver notes into any format. Custom scripts can be particularly useful for users who write developer documentation, programming books or tutorials.</div><div><span style=\"line-height: 1.4;\"><br></span></div><div><span style=\"line-height: 1.4;\">A few sample scripts can be found here: </span><a href=\"https://github.com/HappenApps/Quiver/wiki/Export-Scripts\" style=\"line-height: 1.4;\">https://github.com/HappenApps/Quiver/wiki/Export-Scripts</a><span style=\"line-height: 1.4;\">.</span></div>"
+    }
+  ]
+}
